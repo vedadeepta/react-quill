@@ -23,7 +23,8 @@
     "test:browser:interactive": "cypress open",
     "demo": "superstatic demo",
     "clean": "rimraf lib dist",
-    "prepublishOnly": "npm run build"
+    "prepublishOnly": "npm run build",
+    "prepare": "npm run build"
   },
   "keywords": [
     "react",
